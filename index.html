@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer-Times</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container text-center">
+
+        <section>
+            <h1 class="city__name">أسيوط</h1>
+            <h3 class="date m__date">الجمعه 8 مارس 2024</h3>
+            <h3 class="date h__date">الجمعه 8 مارس 2024</h3>
+        </section>
+        <div class="cards ">
+            <div class="text-center row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-6">
+                <div class="col">
+                    <article class="card">
+                        <h2 class="card__title">الفجر</h2>
+                        <div class="card__time">
+                            <h3 class="time fajr">00:00</h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h2 class="card__title">الشروق</h2>
+                        <div class="card__time">
+                            <h3 class="time sunrise">00:00</h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h2 class="card__title">الظهر</h2>
+                        <div class="card__time">
+                            <h3 class="time dhuhr">00:00</h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h2 class="card__title">العصر</h2>
+                        <div class="card__time">
+                            <h3 class="time asr">00:00</h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h2 class="card__title">المغرب</h2>
+                        <div class="card__time">
+                            <h3 class="time sunset">00:00</h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h2 class="card__title">العشاء</h2>
+                        <div class="card__time">
+                            <h3 class="time isha">00:00</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <section class="select__section">
+            <select class="select" name="" id="sel">
+            </select>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
